@@ -27,11 +27,11 @@ public class chrometest {
 	  Assert.assertEquals(a, b);
   }
 
-  public void afterCommitMethod() {
-	  int me = 1;
-	  int you = 1;
-	  Assert.assertEquals(me, you);
-			 
+  public void AfterNewCommitMethod() {
+	  int me = 2;
+	  int you = 2;
+	  System.out.println("calculating....................");
+	  Assert.assertEquals(me, you);	 
   }
 }
   
