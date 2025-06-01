@@ -1,0 +1,24 @@
+pipeline{
+
+   agents any
+           stage('Bulid'){
+              steps{
+                echo'hello world...........'
+              }
+           }
+stage('Deploy'){
+              steps{
+                echo'hello world...........'
+              }
+           }
+stage('Test'){
+              steps{
+                echo'hello world...........'
+              }
+           }
+stage('Release'){
+              steps{
+                echo'hello world...........'
+              }
+           }
+}
